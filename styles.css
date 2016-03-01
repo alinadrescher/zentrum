@@ -8,18 +8,25 @@
 .navbar{
 	width: 100%;
 	height: 5%;
-	align-content: 	center;
-	border: 	solid;	
+	text-align: center;	
+	align-content: center;
+	border: solid;	
 }
 .navbar .navItem{
 	width: 20%;
-	text-align: 	center;	
-	border: 	solid;
-	display: inline-block
+	height: 100%;
+	text-align: center;	
+	border: solid;
+	display: inline-block;
+	line-height: 270%;
+}
+.navbar .navItem span{
+	vertical-align: middle;
 }
 .content{
+	padding-top: 30px;
 	width: 100%;
 	height: 85%;
-	text-align: 	center;	
-	border: 	solid;	
+	text-align: center;	
+	border: solid;	
 }
