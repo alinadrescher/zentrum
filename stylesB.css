@@ -1,0 +1,95 @@
+.header{
+	width: 100%;
+	height: 20%;
+	align-content: 	center;
+	text-align: 	center;
+	line-height: 270%;
+	background-color: 	fefeff;
+/*	border-bottom:solid 4px;*/
+	border-color: fefeff;
+	/*background-image: linear-gradient(to top, yellow 0%, white 5		0%);*/
+	
+}
+.navbar{
+	width: 100%;
+	height: 5%;
+	text-align: center;	
+	background-color: 91b4f4;	
+}
+.navbar .navItems{
+	width: 70%;
+	height: 100%;
+	text-align: center;	
+	display: inline-block;
+	line-height: 270%;
+	/*border: solid;*/
+	background-color: 91b4f4;
+}
+
+.navbar .navItems .navItem{
+	width: 24%;
+	height: 100%;
+	text-align: center;	
+	display: inline-block;
+	line-height: 270%;
+	/*border: solid;*/
+	background-color: 82a9f3;
+}
+
+.navbar .navItem:hover{
+   background-color: 6394f0;
+}
+
+.contentBody{
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+	background-color: fefeff;
+}
+
+.contentBody .content{
+	width: 68%;
+	height: 100%;
+	text-align: justify;
+	display: inline-block;
+	background-color: eef4fd;
+}
+
+.footer{
+	
+	border-top: solid thin;
+	border-color: b0c9f7;
+	width: 100%;
+	height: 10%;
+	text-align: center;	
+	background-color: fefeff;	
+}
+.footer .footerInfo{
+	position:absolute;
+	bottom:0;
+	font-family: Arial;
+	color: b0c9f7;
+}
+span {
+	color: 09265c;
+	font-family: Arial;
+}
+body{
+    margin: 0;
+}
+h1{
+	font-family: Arial;
+	color: 09265c;
+}
+h2{
+	font-family: Arial;
+	font-style: normal;
+  	font-weight: 400;
+	color: 09265c;
+	text-align: center;
+}
+p{
+	font-family: Arial;
+	color: 09265c;
+}
